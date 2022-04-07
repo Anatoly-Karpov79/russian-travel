@@ -1,15 +1,15 @@
 .intro__list {
-    width: 690px;
+width: 690px;
 height: 90px;
-
-
+margin: 0;
+list-style-type: none;
 font-family: 'Inter';
 font-style: normal;
 font-weight: 700;
 font-size: 12px;
 line-height: 18px;
 /* or 150% */
-
+padding: 0;
 
 color: #FFFFFF;
 }

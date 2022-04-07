@@ -1,0 +1,7 @@
+.places {
+    display: grid;
+    width: 984px;
+    justify-items: center;
+    margin: 92px 148px 0 148px;
+
+}
