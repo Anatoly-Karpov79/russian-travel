@@ -1,5 +1,7 @@
 .place {
     display: grid;
     grid-template-columns: 1fr 1fr;
+    grid-template-rows: auto auto;
     max-width: 984px;
+    gap: 48px 40px;
 }
