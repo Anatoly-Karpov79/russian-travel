@@ -1,0 +1,7 @@
+.cover__background {
+    width: 1184px;
+height: 740px;
+object-fit: contain;
+grid-column: 1/3;
+grid-row: 1/6;
+}
