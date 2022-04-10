@@ -1,0 +1,10 @@
+.footer {
+    display: grid;
+    grid-template-columns: minmax(1em, max-content) minmax(1em, max-content) minmax(1em, max-content)
+    minmax(1em, max-content) minmax(1em, max-content) auto;
+    width: 1184px;
+height: 18px;
+margin: 92px 48px 0 48px;
+padding-bottom: 24px;
+gap: 18px;
+}
