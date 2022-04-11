@@ -1,11 +1,21 @@
 .cover {
     display: grid;
     
-    max-width: 1184px;
-max-height: 740px;
-margin: 92px 48px 0 48px;
-grid-template-columns: repeat(3, 1fr);
+width: 90%;
+
+margin: 92px 5% 0 5%;
+
 grid-template-rows: repeat(4, 1fr);
-
-
+}
+@media screen and (max-width: 1024px) {
+    .cover {
+        width: 99%;
+        margin: 92px 0 0 0;
+    }
+}
+@media screen and (max-width: 320px) {
+    .cover {
+        
+        margin: 16px 0 0 0;
+    }
 }
