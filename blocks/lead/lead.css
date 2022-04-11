@@ -1,8 +1,25 @@
 .lead {
     display: grid;
     justify-items: center;
-    max-width: 984px;
-    height: 1005px;
-    
-    margin: 136px 0 0 148px;
-    
+    width: 78%;
+      
+    margin: 136px 11% 0 11%;
+}
+@media screen and (max-width: 1024px) {
+   .lead {
+    width: 89%;  
+    margin: 128px 5% 0 5%;
+   } 
+}
+@media screen and (max-width: 768px) {
+    .lead {
+     width: 100%;  
+     margin: 128px 0 0 0;
+    } 
+ }
+ @media screen and (max-width: 320px) {
+    .lead {
+     width: 99%;  
+     margin: 48px 0 0 0;
+    } 
+ }

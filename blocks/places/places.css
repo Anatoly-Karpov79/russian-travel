@@ -1,7 +1,25 @@
 .places {
     display: grid;
-    width: 984px;
+    width: 78%;
+    margin: 92px 11% 0 11%;
     
-    margin: 0 148px 0 148px;
 
+}
+@media screen and (max-width: 1024px) {
+    .places {
+        width: 89%;
+    margin: 92px 5% 0 5%; 
+    }
+}
+@media screen and (max-width: 1024px) {
+    .places {
+        
+    margin: 88px 5% 0 5%; 
+    }
+}
+@media screen and (max-width: 1024px) {
+    .places {
+        
+    margin: 64px 5% 0 5%; 
+    }
 }

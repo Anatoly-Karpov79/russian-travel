@@ -2,9 +2,21 @@
     display: grid;
     grid-template-columns: minmax(1em, max-content) minmax(1em, max-content) minmax(1em, max-content)
     minmax(1em, max-content) minmax(1em, max-content) auto;
-    width: 1184px;
+    width: 90%;
+
+margin: 92px 5% 0 5%;
 height: 18px;
-margin: 92px 48px 0 48px;
+
 padding-bottom: 24px;
 gap: 18px;
+}
+@media screen and (max-width: 320px) {
+    .footer {
+        margin: 64px auto 24px 16px;
+        grid-template-columns: auto;
+        grid-template-rows: minmax(1em, max-content) minmax(1em, max-content) minmax(1em, max-content)
+    minmax(1em, max-content) minmax(1em, max-content) auto;
+       height: 310px;
+       gap: 32px;
+    }
 }
