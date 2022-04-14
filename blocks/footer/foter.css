@@ -17,7 +17,7 @@ gap: 18px;
         grid-template-rows: minmax(1em, max-content) minmax(1em, max-content) minmax(1em, max-content)
     minmax(1em, max-content) minmax(1em, max-content) auto;
        height: 10%;
-       gap: 3%px;
+       gap: 3%;
     }
 }
 @media screen and (max-width: 640px) {
