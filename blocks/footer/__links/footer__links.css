@@ -1,0 +1,22 @@
+.footer__links {
+  display: grid;
+  grid-template-columns: minmax(1em, max-content) minmax(1em, max-content) minmax(1em, max-content)
+  minmax(1em, max-content) minmax(1em, max-content) auto;
+  width: 90%;
+  gap: 18px;
+}
+@media screen and (max-width: 515px) {
+    .footer__links {
+        grid-template-columns: auto;
+        grid-template-rows: minmax(1em, max-content) minmax(1em, max-content) minmax(1em, max-content)
+    minmax(1em, max-content) minmax(1em, max-content) auto;
+       gap: 3%;
+    }
+}
+@media screen and (max-width: 640px) {
+    .footer__links {
+        gap: 1%;
+          
+    }
+    
+}
